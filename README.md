@@ -21,9 +21,9 @@ Metric learning is widely used in various fields:
 - **Recommendation Systems:** Improving item recommendations by learning similarity in user preferences.
 
 ## Implementation details
-- **Pytorch
-- **Training Device : CPU
-- **Dataset : MNIST
+- Pytorch
+- Training Device : CPU
+- Dataset : MNIST
 - For visualization please refer to jupyternotebook file.
 
 ## Reference Paper
