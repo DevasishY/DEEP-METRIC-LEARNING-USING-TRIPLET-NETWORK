@@ -24,6 +24,8 @@ Metric learning is widely used in various fields:
 - Pytorch
 - Training Device : CPU
 - Dataset : MNIST
+- epochs : 2
+- Batch size : 512 training, 1 testing 
 - For visualization please refer to jupyternotebook file.
 
 ## Reference Paper
