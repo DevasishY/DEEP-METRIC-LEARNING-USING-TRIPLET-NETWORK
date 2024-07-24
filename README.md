@@ -1,19 +1,10 @@
-"# DEEP-METRIC-LEARNING-USING-TRIPLET-NETWORK" 
+# DEEP-METRIC-LEARNING-USING-TRIPLET-NETWORK 
 
 # Metric Learning
 
 ## Overview
 
 Metric learning is a technique used to learn a distance metric or similarity function from data. The goal is to create a meaningful representation space where similar objects are close to each other, while dissimilar objects are far apart. This is particularly useful for tasks that require fine-grained distinctions between data points.
-
-## Why Metric Learning?
-
-In many machine learning applications, the choice of distance metric can significantly impact the performance of the model. Traditional distance metrics, such as Euclidean or Manhattan distance, might not always capture the complex relationships between data points. Metric learning aims to address this by learning a metric that better reflects the underlying structure of the data.
-
-Key benefits of metric learning include:
-- **Improved Classification:** By learning a metric that better captures similarities, classification models can make more accurate predictions.
-- **Enhanced Clustering:** A well-learned metric can improve the quality of clusters by placing similar items closer together.
-- **Better Retrieval:** In tasks like image or text retrieval, a learned metric can help in finding more relevant results based on similarity.
 
 ## How It Works
 
@@ -29,25 +20,20 @@ Metric learning is widely used in various fields:
 - **Image Retrieval:** Finding similar images in large databases.
 - **Recommendation Systems:** Improving item recommendations by learning similarity in user preferences.
 
-## Getting Started
+## Implementation details
+- **Pytorch
+- **Training Device : CPU
+- **Dataset : MNIST
+- For visualization please refer to jupyternotebook file.
 
-To get started with metric learning, you can explore popular libraries and frameworks such as:
-- [Scikit-learn](https://scikit-learn.org/stable/)
-- [TensorFlow](https://www.tensorflow.org/)
-- [PyTorch](https://pytorch.org/)
+## Reference Paper
 
-For more detailed tutorials and examples, check out the following resources:
-- [Metric Learning Overview](https://example.com/metric-learning-overview)
-- [Tutorial on Metric Learning with PyTorch](https://example.com/metric-learning-pytorch)
-- [Research Papers and Algorithms](https://example.com/metric-learning-papers)
+For an in-depth understanding of metric learning, refer to the seminal paper:
+- [**Deep Metric Learning Using Triplet Network**](https://arxiv.org/abs/1412.6622) by Elad Hoffer, Nir Avidan. This paper introduces a triplet loss approach for metric learning and provides valuable insights into the methodology and applications.
 
 ## Contributing
 
 If you have any suggestions, improvements, or want to contribute to this project, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
